@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: mnnpy
+Version: 0.1.9.5
+Summary: Mutual nearest neighbors correction in python.
+Home-page: http://github.com/chriscainx/mnnpy
+Author: Chris Kang
+Author-email: kbxchrs@gmail.com
+License: BSD 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.4
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: anndata
+Requires-Dist: pandas
+Requires-Dist: numba
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Correcting batch effects in single-cell expression datasets using the mutual nearest neighbors method.
